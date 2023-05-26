@@ -1,0 +1,44 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+
+}
+.container span {
+    width: 100px;
+}
+
+.container input[type="text"] {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;  
+}
+
+.luu{
+    margin-bottom: 10px;
+    width: 150px;
+    padding: 5px;  
+    margin-top: 15px;
+}
+
+.list-student{
+    width: 1000px;
+    border: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+}
+
+.listStudent{
+    width: 100%;
+}

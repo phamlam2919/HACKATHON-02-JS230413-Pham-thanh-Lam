@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Thông tin học viên</h1>
+      <span
+        >Họ và Tên <br />
+        <input type="text" name="full name" class="name" id="fullname"
+      /></span>
+      <br />
+      <span
+        >Email <br />
+        <input type="text" name="email" class="email" id="email"
+      /></span>
+      <br />
+      <span
+        >Số điện thoại <br /><input
+          type="text"
+          name="phone"
+          class="sdt"
+          id="phone"
+      /></span>
+      <br />
+      <span
+        >Quê quán <br />
+        <input type="text" name="address" class="quequan" id="address"
+      /></span>
+      <br />
+      <span
+        >Giới tính <input type="radio" id="male" name="gender" value="Nam" />Nam
+        <input type="radio" id="famale" name="gender" value="Nu" /> Nữ
+      </span>
+      <br />
+      <button class="luu" onclick="save(event)">Lưu lại</button>
+    </div>
+
+    <div class="list-student">
+      <h1>Danh sách học viên</h1>
+      <div>
+        <span>Tìm kiếm theo tên học viên</span>
+        <input type="text" id="search" value="" />
+        <button class="search">Tìm kiếm</button>
+      </div>
+      <table border="1" class="listStudent"></table>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
